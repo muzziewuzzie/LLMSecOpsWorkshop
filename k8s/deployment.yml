@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: gptcontainer
-          image: image_name   # replace with your actual image, e.g. 123456789012.dkr.ecr.ap-southeast-1.amazonaws.com/fastapi-app:latest
+          image: muzziewuzzie/fastapi-app:latest   # replace with your actual image, e.g. 123456789012.dkr.ecr.ap-southeast-1.amazonaws.com/fastapi-app:latest
           ports:
             - containerPort: 8000
